@@ -42,6 +42,7 @@ public class UrlService {
         return sqids.encode(Arrays.asList(sequentialId));
     }
 
+
     public long getOriginalId(String code) {
         return sqids.decode(code).get(0);
     }
